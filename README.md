@@ -22,7 +22,7 @@ Finally, create a file `config.py` in the directory with the rest of the files, 
 API_KEY = 'YOUR_RAPIDAPI_KEY'
 TOKEN = 'YOUR_DISCORD_TOKEN'
 ```
-(see [getting an API key](https://github.com/Artemis21/coronastats/blob/master/README.md#getting-an-api-key) and [getting a Discord token](https://github.com/Artemis21/coronastats/blob/master/README.md#getting-an-discord-token)).
+(see [getting an API key](#getting-an-api-key) and [getting a Discord token](#getting-a-discord-token)).
 Now to run the file, just do
 ```batch
 > py bot.py
