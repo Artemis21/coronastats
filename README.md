@@ -1,6 +1,6 @@
 # CoronaStats
 A simple discord bot to provide stats & graphs on COVID-19.  
-Setup details are listed below, alternativly, you can use [my instance of the bot](https://discordapp.com/oauth2/authorize?client_id=691369979186249799&permissions=604359745&scope=bot).
+Setup details are listed below, alternatively, you can use [my instance of the bot](https://discordapp.com/oauth2/authorize?client_id=691369979186249799&permissions=604359745&scope=bot).
 
 ## Setup
 First, ensure you have Python 3.7+. This can be installed [here](https://python.org/download), or on Linux, with:
@@ -22,7 +22,7 @@ Finally, create a file `config.py` in the directory with the rest of the files, 
 API_KEY = 'YOUR_RAPIDAPI_KEY'
 TOKEN = 'YOUR_DISCORD_TOKEN'
 ```
-(see [getting an API key]() and [getting a Discord token]()).
+(see [getting an API key](https://github.com/Artemis21/coronastats/blob/master/README.md#getting-an-api-key) and [getting a Discord token](https://github.com/Artemis21/coronastats/blob/master/README.md#getting-an-discord-token)).
 Now to run the file, just do
 ```batch
 > py bot.py
@@ -38,7 +38,7 @@ To get an API key, you will need to create an account on [RapidAPI](https://rapi
 
 ## Getting a Discord Token
 To get a Discord token, sign in to the [Discord Developer Portal](https://discordapp.com/developers), and follow the steps below:  
- 1. Make sure you are on the [applications page]](https://discordapp.com/developers/applications).  
+ 1. Make sure you are on the [applications page](https://discordapp.com/developers/applications).  
  2. Click "New Application" in the top right.  
  3. Enter a cool name for your bot! You can change this later.  
  4. On the left menu, click on "Bot", then "Create a Bot".  
