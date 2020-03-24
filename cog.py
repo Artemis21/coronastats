@@ -21,7 +21,8 @@ class Stats(commands.Cog):
 
     @commands.command(brief='View stats by country.')
     async def countries(self, ctx):
-        '''See various stats by country.
+        '''See various stats by country (only the top 15 countries are \
+        included).
         '''
         async with ctx.typing():
             await ctx.send(**embeds.by_country())
@@ -34,7 +35,7 @@ class Stats(commands.Cog):
 
     @commands.command(brief='See initial USA cases.')
     async def cases(self, ctx):
-        '''See the first 19 USA cases.
+        '''See the first 20 USA cases.
         '''
         async with ctx.typing():
             await ctx.send(**embeds.by_state())

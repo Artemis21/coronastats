@@ -11,6 +11,7 @@ INVITE = (
     '&permissions=604359745&scope=bot'
 )
 SOURCE = 'https://github.com/artemis21/coronastats'
+SITE = 'https://artybot.xyz'
 
 
 class Help(commands.DefaultHelpCommand):
@@ -60,6 +61,7 @@ async def about(ctx):
     e.add_field(name='Users', value=len(bot.users))
     e.add_field(name='Add Bot', value=f'**[Click here]({INVITE})**')
     e.add_field(name='Source Code', value=f'**[Click here]({SOURCE})**')
+    e.add_field(name='Visit My Website', value=f'**[Click here]({SITE})**')
     await ctx.send(embed=e)
 
 
